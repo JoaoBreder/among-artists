@@ -1,0 +1,30 @@
+.column-01 {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.perfil-img {
+    width: 80%;
+    height: 100%;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#van-gogh {
+    background-image: url('../img/van-gogh/quadro_02.jpg');
+}
+
+.column-02 {
+    width: 60%;
+}
+
+.ficha-tecnica {
+    margin-bottom: 5rem;
+}
+
+.resumo {
+    margin-bottom: 5rem;
+}

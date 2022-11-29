@@ -29,15 +29,15 @@
 }
 
 #van-gogh {
-    background-image: url('../assets/img/van-gogh/perfil.jpeg');
+    background-image: url('../assets/img/van-gogh/quadro_01.jpeg');
 }
 
 #leo-vinci {
-    background-image: url('../assets/img/leo-vinci/perfil.jpg');
+    background-image: url('../assets/img/leo-vinci/quadro_01.jpg');
 }
 
 #monet {
-    background-image: url('../assets/img/monet/perfil.jpg');
+    background-image: url('../assets/img/monet/quadro_01.jpg');
 }
 
 .artista-nome {

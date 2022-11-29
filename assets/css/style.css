@@ -20,7 +20,43 @@ body {
 header {
     display: flex;
     align-items: center;
-    margin-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    margin: 0;
+
+    font-family: 'Kavivanar';
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+
+    color: white;
+}
+
+h1 {
+    margin: 0 0 5rem 0;
+    padding-bottom: 1rem;
+    border-bottom: 0.2rem solid #FF8A00;
+
+    font-family: 'Kaushan Script';
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+li {
+    width: fit-content;
+    cursor: pointer;
+
+    font-family: 'Kavivanar';
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
 }
 
 .menu {
@@ -44,7 +80,7 @@ header {
 
 .container {
     width: auto;
-    min-height: 87vh;
+    min-height: 86vh;
     display: flex;
-    margin: 0 10rem;
+    margin: 1rem;
 }
