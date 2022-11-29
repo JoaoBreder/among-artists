@@ -39,6 +39,9 @@ p {
 }
 
 h1 {
+    height: fit-content;
+    width: 100%;
+
     margin: 0 0 5rem 0;
     padding-bottom: 1rem;
     border-bottom: 0.2rem solid #FF8A00;
@@ -57,6 +60,12 @@ li {
     font-size: 3rem;
     font-style: normal;
     font-weight: 400;
+}
+
+iframe {
+    border: 0;
+    width: 100%;
+    height: 70rem;
 }
 
 .menu {
@@ -83,4 +92,13 @@ li {
     min-height: 86vh;
     display: flex;
     margin: 1rem;
+}
+
+.video {
+    width: 100%;
+
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
 }
