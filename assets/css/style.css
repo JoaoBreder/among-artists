@@ -20,6 +20,7 @@ body {
 header {
     display: flex;
     align-items: center;
+    margin-bottom: 1rem;
 }
 
 .menu {
@@ -43,8 +44,7 @@ header {
 
 .container {
     width: auto;
-    min-height: 88vh;
-
+    min-height: 87vh;
+    display: flex;
     margin: 0 10rem;
-    background-color: red;
 }

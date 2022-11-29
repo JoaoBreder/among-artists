@@ -1,0 +1,45 @@
+.container {
+    justify-content: space-around;
+}
+
+.artista {
+    width: 25%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.artista-img {
+    width: 100%;
+    height: 90%;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    cursor: pointer;
+}
+
+.artista-img:hover {
+    height: 100%;
+    transition: width 500ms, height 500ms;
+}
+
+#van-gogh {
+    background-image: url('../assets/img/van-gogh/perfil.jpeg');
+}
+
+#leo-vinci {
+    background-image: url('../assets/img/leo-vinci/perfil.jpg');
+}
+
+#monet {
+    background-image: url('../assets/img/monet/perfil.jpg');
+}
+
+.artista-nome {
+    font-size: 4.5rem;
+}
