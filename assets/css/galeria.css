@@ -1,0 +1,36 @@
+.container {
+    flex-direction: column;
+}
+
+h1 {
+    margin-bottom: 0.5rem;
+}
+
+.galeria {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+.arte {
+    display: flex;
+    flex-direction: column;
+
+    width: 30%;
+    padding: 5rem;
+
+    background-color: #D9D9D9;
+}
+
+.arte p {
+    color: black;
+}
+
+.quadro {
+    width: 100%;
+    height: auto;
+}
+
+.info {
+    margin-top: auto;
+}
