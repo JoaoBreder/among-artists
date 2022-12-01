@@ -17,6 +17,10 @@
     background-image: url('../img/van-gogh/quadro_02.jpg');
 }
 
+#leo-vinci {
+    background-image: url('../img/leo-vinci/quadro_02.jpg');
+}
+
 .column-02 {
     width: 60%;
 }
