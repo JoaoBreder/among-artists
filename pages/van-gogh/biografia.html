@@ -9,6 +9,9 @@
     <link rel="stylesheet" type="text/css" href="../../assets/css/style.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="../../assets/css/biografia.css" media="screen" />
 
+    <!-- SCRIPTS -->
+    <script src="../../assets/scripts/menu.js"></script>
+
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +21,7 @@
 
 <body>
     <header>
-        <div class="menu">
+        <div class="menu-icon" onclick="openMenu()">
             <div class="bar"></div>
             <div class="bar"></div>
             <div class="bar"></div>
@@ -39,6 +42,18 @@
             </iframe>
         </div>
     </div>
+
+    <nav class="menu-nav">
+        <ul id="menu-id" class="menu">
+            <h2><b>Menu</b></h2>
+
+            <div>
+                <li><a href="../van-gogh/perfil.html">Van Gogh</a></li>
+                <li><a href="../leo-vinci/perfil.html">Leonardo Da Vinci</a></li>
+                <li><a href="../monet/perfil.html">Monet</a></li>
+            </div>
+        </ul>
+    </nav>
 </body>
 
 </html>
