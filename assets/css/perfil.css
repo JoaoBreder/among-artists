@@ -21,14 +21,18 @@
     background-image: url('../img/leo-vinci/quadro_02.jpg');
 }
 
+#monet {
+    background-image: url('../img/monet/quadro_02.jpg');
+}
+
 .column-02 {
     width: 60%;
 }
 
 .ficha-tecnica {
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
 
 .resumo {
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
